@@ -36,5 +36,6 @@ exports.help={
   description: "Register a squad for tournament",
   aliases: ["sq","sqd"],
   usage: process.env.PREFIX+"squads/alias <team slot> <clan name> <user 1> <user 2> <user 3> <user 4> sub(optional) <user1> <user2> <user3>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 }

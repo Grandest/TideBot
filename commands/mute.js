@@ -67,5 +67,6 @@ exports.help = {
   description: "Mutes the user",
   aliases: ["stfu","silent"],
   usage: process.env.PREFIX+"mute/alias <user> <time in minutes(optional)>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

@@ -43,5 +43,6 @@ exports.help = {
   description: "Unmutes the user",
   aliases: ["unmute"],
   usage: process.env.PREFIX+"unmute/alias <user>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

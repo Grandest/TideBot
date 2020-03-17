@@ -12,5 +12,6 @@ exports.help = {
   description: "Make the bot say a message",
   aliases: ["speak","bark","echo"],
   usage: process.env.PREFIX+"say/alias <message>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

@@ -25,5 +25,6 @@ exports.help={
   description: "Lists all the users in a specified role",
   aliases: ["check","chk"],
   usage: process.env.PREFIX+"check/alias <role (without @)>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 }

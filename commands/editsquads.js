@@ -42,5 +42,6 @@ exports.help = {
   description: "Edit a squad for scrims/tournaments",
   aliases: ["edsq","esquads"],
   usage: process.env.PREFIX+"editsquads/alias <team slot to edit> <new complete roster>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

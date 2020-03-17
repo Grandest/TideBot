@@ -20,5 +20,6 @@ exports.help = {
   description: "Clear the channel",
   aliases: ["c","del","purge"],
   usage: process.env.PREFIX+"clear/alias  <number between 2 - 100>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

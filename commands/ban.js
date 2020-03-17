@@ -25,5 +25,6 @@ exports.help = {
   description: "Bans the user",
   aliases: ["ban","b"],
   usage: process.env.PREFIX+"ban/alias <user> <reason (optional)>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };

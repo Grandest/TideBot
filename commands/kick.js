@@ -25,5 +25,6 @@ exports.help = {
   description: "Kicks the user",
   aliases: ["kick","k"],
   usage:process.env.PREFIX+"kick/alias <user> <reason (optional)>",
-  permissions:true
+  permissions:true,
+  roles:["Tide Admin", "Tide Managers","CoDM Manager"]
 };
