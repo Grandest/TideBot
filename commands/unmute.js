@@ -19,21 +19,21 @@ exports.run = async(client,message,args)=>{
 
      const exampleEmbed =new Discord.RichEmbed()
   .setColor('#0099ff')
-  .setAuthor('Tide Gaming','https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128')
+  .setAuthor('Tide Gaming',client.user.displayAvatarURL)
   .setTitle(member.user.tag+" unmuted successfully")
-  .setThumbnail('https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128')
+  .setThumbnail(client.user.displayAvatarURL)
   .setTimestamp()
-  .setFooter('Developed by Tide Gaming', 'https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128');
+  .setFooter('Developed by Tide Gaming', client.user.displayAvatarURL);
   message.channel.send({embed:exampleEmbed});
      }
      else{
        const exampleEmbed =new Discord.RichEmbed()
   .setColor('#0099ff')
-  .setAuthor('Tide Gaming','https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128')
+  .setAuthor('Tide Gaming',client.user.displayAvatarURL)
   .setTitle(member.user.tag+" is not muted")
-  .setThumbnail('https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128')
+  .setThumbnail(client.user.displayAvatarURL)
   .setTimestamp()
-  .setFooter('Developed by Tide Gaming', 'https://cdn.discordapp.com/icons/239932348357935104/dc80fa10f050a47bd80b339536ded85d.webp?size=128');
+  .setFooter('Developed by Tide Gaming', client.user.displayAvatarURL);
   message.channel.send({embed:exampleEmbed});
      }
 
